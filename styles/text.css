@@ -1,0 +1,91 @@
+.tahoma{
+    font-weight: bold;
+    font-size: 34px;
+    font-family: tahoma;
+}
+
+.big{
+    font-family: Arial;
+    font-size: 44px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.sales{
+    font-family: Arial;
+    color:red;
+    font-style: italic;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.htcs{
+    font-family: verdana;
+    font-size: 40px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.beg{
+    font-family: verdana;
+    color:grey;
+    font-size: 35px;
+    margin-top: 5px;
+}
+
+.learn{
+    font-family: Verdana;
+    font-weight: bold;
+    width: 340px;
+}
+
+.get-button{
+    background-color: green;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:20px;
+    padding-right: 20px;
+    font-size: 25;
+    font-family: verdana;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: box-shadow 0.15, opacity 0.15, letter-spacing 0.15;
+}
+
+.get-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    letter-spacing: 3px;
+}
+.get-button:active{
+    opacity: 0.5;
+}
+
+.shop{
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.see{
+    font-family: Arial;
+    font-size: 20px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+.more{
+    font-family: Arial;
+    font-size: 20px;
+    margin-left: 180px;
+    color:rgb(0, 157, 255);   
+    transform: text-decoration 0.15;
+}
+
+.more:hover{
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}

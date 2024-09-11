@@ -1,0 +1,155 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+.subscribe-button{
+    background-color: rgb(200, 0, 0);
+    border:none;
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 2px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: opacity 0.15;
+    vertical-align: top;
+}
+
+.subscribe-button:hover{
+opacity: 0.6;
+}
+
+.subscribe-button:active{
+opacity: 0.3;
+}
+
+.join-button{
+    background-color: white;
+    padding-left: 10px;
+    padding-top: 9px;
+    padding-right: 10px;
+    padding-bottom: 9px;
+    border-radius: 2px;
+    border-color: rgb(41, 118, 211);
+    font-size: 25px;
+    border-style: solid;
+    cursor: pointer;
+    border-width: 1px;
+    margin-right: 10px;
+    color: rgb(41, 118, 211);
+    transition: background-color 0.15, color 0.15;
+    vertical-align: top;
+}
+
+.join-button:hover{
+    background-color:rgb(41, 118, 211);
+    color:white;
+}
+
+.join-button:active{
+    opacity: 0.6;
+}
+
+.tweet-button{
+    background-color: rgb(41, 118, 211);
+    color:white;
+    font-size: 25px;
+    border-radius: 18px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: box-shadow 0.15;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    vertical-align: top;
+}
+
+.tweet-button:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+}
+
+.container{
+    background-color: blue;
+    padding-left: 15px;
+    color:white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.courses{
+    font-size: 1rem;
+    padding-left: 120px;
+    border-left: 2px  white;
+    vertical-align: middle;
+}
+
+
+.microsoft-academy{
+    vertical-align: middle;
+    display: inline-block;
+}
+.llink{
+display: inline-block;
+vertical-align: middle;
+padding-left: 600px;
+a{
+    cursor: pointer;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 16px;
+}
+}
+.courses{
+    display: inline-block;
+}
+.support{
+    width: 380px;
+    font-size: 2rem;
+    display: inline-block;
+}
+.yes{
+    
+    padding-left: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+  
+}   
+.no{
+    
+    padding-left: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+  
+}  
+.text-box{
+    display: block;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    font-size: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 3px;
+    border-style: solid;
+
+}
+.no, yes{
+    display: inline-block;
+    vertical-align: middle;
+}
